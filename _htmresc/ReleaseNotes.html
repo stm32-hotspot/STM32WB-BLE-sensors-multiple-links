@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<title>_htmresc\ReleaseNotes.html</title>
+</head>
+
+<body style="font-size: 10pt; font-family: Verdana;">
+
+<h3 style="color: blue; text-decoration: underline;">STM32CubeWB Firmware Package V1.13.0 / 12-November-2021</h3>
+
+<div style="margin-left: 18pt;">
+<p>
+<b><u>Main Changes</u></b>
+</p>
+
+<p>
+<b>BLE updates:</b>
+</p>
+<p>
+- Multi link support
+</p>
+<p>
+- L2CAP connection-oriented channels support (IP over BLE enabler)
+</p>
+<p>
+- ACI_GAP_START_NAME_DISCOVERY_PROC command is deprecated
+</p>
+
+<p>
+<b>802.15.4 general updates (Zigbee, Thread, MAC, PHY)</b>
+</p>
+<p>
+- CCA (Clear Channel Assessment) Threshold has been increased
+</p>
+
+<p>
+<b>Zigbee updates</b>
+</p>
+<p>
+- 802_15_4 timer improvement solving several issues relative to the wraparound of this timer
+</p>
+
+<p>
+<b>Thread updates</b>
+</p>
+<p>
+- Fix wrapper issue with UDP receivers
+</p>
+<p>
+- RCP build: improved commissioning process robustness
+</p>
+
+<p>
+<b>MAC 802.15.4 updates</b>
+</p>
+<p>
+- Fix unicast data processing after restart from persistence
+</p>
+<p>
+- Fix wrong erratic PANID Compression Flag on Beacon Request
+</p>
+<p>
+- Reduce MaxBe low level threshold allowing user to change CSMA-CA values
+</p>
+
+<p>
+<b>BLE-Zigbee Concurrent mode</b>
+</p>
+<p>
+- BLE-Zigbee static concurrent mode not supported in this release, will be fixed in the next release. Alternative is to use BLE-Zigbee Dynamic concurrent mode
+</p>
+
+<p>
+<b>Safeboot</b>
+</p>
+<p>
+- New binaries added: stm32wb5x_Safeboot_fw.bin, stm32wb3x_Safeboot_fw.bin, stm32wb1x_Safeboot_fw.bin.
+</p>
+<p>
+- Safeboot is an independent part of the FUS that manages specifically one case: option bytes corruption.
+</p>
+<p>
+- When option bytes are corrupted, the STM32WB hardware forces the boot to Safeboot whatever the running firmware.
+</p>
+<p>
+- Safeboot is already present in the FUS and this image allows to update it. Refer to AN5185 for more details.
+</p>
+<p>
+- Safeboot upgrade is optional.
+</p>
+
+</div>
+</body>
+</html>
