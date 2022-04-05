@@ -8,7 +8,7 @@ This example implements a multilink communication between a STM32WB5MM-DK board 
 
 By using the ST BLE Sensor app on up to 8 smartphones, it is possible to access a user friendly interface to show the received data different ways such as textually, graph or dedicated panels.
 
-<img src="https://wiki.st.com/stm32mcu/nsfr_img_auth.php/thumb/d/d6/Connectivity_ST_BLE_Sensor.png/100px-Connectivity_ST_BLE_Sensor.png" width="10%" height="10%"> on [<img src="https://user-images.githubusercontent.com/45876308/155360271-cb902305-cc0e-4bcf-9040-b3ef2861cda7.png" width="50" height="50">](https://play.google.com/store/apps/details?id=com.st.bluems)
+<img src="https://wiki.st.com/stm32mcu/nsfr_img_auth.php/thumb/d/d6/Connectivity_ST_BLE_Sensor.png/100px-Connectivity_ST_BLE_Sensor.png" width="8%" height="8%"> on [<img src="https://user-images.githubusercontent.com/45876308/155360271-cb902305-cc0e-4bcf-9040-b3ef2861cda7.png" width="30" height="30">](https://play.google.com/store/apps/details?id=com.st.bluems)
 
 
 If the dice panel is choosen on the application, it is possible to see a dice moving the same way on the application of each smartphone by moving the board or access the raw data sent by the different sensors on textual or graph mode.
@@ -68,6 +68,6 @@ The cube model and Led setup is optionnal, but you can find the 3D files and Led
 
 ## Troubleshooting
 
-**Caution** : Issues and the pull-requests are **not supported** to submit problems or suggestions related to the software delivered in this repository. The STM32WL_SubGHz_Phy_Basic_Tx_Rx example is being delivered as-is, and not necessarily supported by ST.
+**Caution** : Issues and the pull-requests are **not supported** to submit problems or suggestions related to the software delivered in this repository. The STM32WB-BLE-sensors-multiple-links example is being delivered as-is, and not necessarily supported by ST.
 
 **For any other question** related to the product, the hardware performance or characteristics, the tools, the environment, you can submit it to the **ST Community** on the STM32 MCUs related [page](https://community.st.com/s/topic/0TO0X000000BSqSWAW/stm32-mcus).

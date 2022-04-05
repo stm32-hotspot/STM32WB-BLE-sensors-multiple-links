@@ -111,11 +111,11 @@ On the android/ios device, enable the Bluetooth communications, and if not done 
 	https://itunes.apple.com/us/App/st-bluems/id993670214?mt=8
 
  - Power on the board with the BLE_Sensor_MotionFX application
- - At powered on, the screen displays the name of the board (STM32WB5MM), the stack version, the fuse version and the BD address during 5 seconds
+ - When powered on, the screen displays the name of the board (STM32WB5MM), the stack version, the fus version and the BD address during 5 seconds
  - Then, the board starts advertising (during 2 minute). During this phase, the distance measured by the Time-of-Flight sensor is displayed on the screen.
  - To connect the board to the smartphone, click on the App icon, ST BLE Sensor (android device). It is possible to connect up to 8 smartphones simultaneously.
  - connect to the device
- - select the STM32WBDK in the device list 
+ - select the WB5M CUBE in the device list 
  - Then we have some demonstrations available :
  
     - environmental : Display humidity and temperature values
